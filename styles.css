@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Arial", "Noto Sans",
+    "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.university-color {
+  color: #990000;
+}
+
+.link-list a {
+  margin-right: 5px;
+}
+
+.staff-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.staff-member {
+  width: 360px;
+  max-width: 95%;
+  text-align: center;
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+.staff-member img {
+  width: 70%;
+  max-width: 160px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.staff-member h2,
+.staff-member p {
+  margin: 5px 0;
+}
+
+.site-footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #e5e5e5;
+  margin-top: 50px;
+}
+
+.site-footer p {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: #555;
+}
+
+@media only screen and (max-width: 1024px) {
+  .staff-member img {
+    width: 65%;
+    max-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .staff-member {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .staff-member img {
+    width: 60%;
+    max-width: 140px;
+  }
+
+  .table-responsive {
+    font-size: 0.95rem;
+  }
+}
