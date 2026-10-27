@@ -28,7 +28,6 @@ Each item below is blocked on a decision recorded in the private working reposit
 - Topic column of the schedule table
 - Midterm format, and how section 30359 takes it remotely
 - `syllabus.pdf`, plus the commented-out nav entry that links to it
-- Whether the Nov 23 meeting before Thanksgiving stays as a regular lecture
 
 ## Publishing rule
 
